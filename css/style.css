@@ -192,10 +192,8 @@ form :first-child{
     margin-top: 10px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
+label
+ {
     margin-bottom: 10px;
   display: block;
   width: 100%;
@@ -208,10 +206,13 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
 }
 
 textarea {
-  height: 200px;
+  height: 250px;
 }
 
 input[type=submit] {
